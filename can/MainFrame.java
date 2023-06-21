@@ -72,7 +72,7 @@ public class MainFrame extends JFrame {
             outputBytes = new CRC().calculate(inputBytes);
         }
         long time = System.nanoTime() - start;
-        out1.setText(CRC.bytesToHex(outputBytes));
+        out1.setText(CRC.bytesToHex(outputBytes).toUpperCase());
         out2.setText(format(time));
         out3.setText(format(time / iterations));
     }
