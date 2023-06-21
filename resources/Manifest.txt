@@ -1,0 +1,2 @@
+Main-Class: can.MainFrame
+Class-Path: lib/ resources/
